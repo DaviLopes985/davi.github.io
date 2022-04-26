@@ -12,12 +12,10 @@
 
 <!------------------------------------------------------ Heater ---------------------------------------------------->
     <header>
-        <img src="./imagem/logo-dll.svg" alt="Logo">
-        <div class="foto-de-perfil">
-            <img src="./imagem/portifolio-foto-pequena.png" alt="">
-        </div>
+        <h1 class="logonome"><span class="vermelho">D</span>AVI <span class="vermelho">L</span>OPES</h1>
+
         <nav>
-            <ul>
+            <ul class="headermenu">
                 <li><a href="#experiencia">Experiência</a></li>
                 <li><a href="#formacao">Formação</a></li>
                 <li><a href="#contato">Contato</a></li>
@@ -25,27 +23,41 @@
         </nav>      
     </header>
 
-    
-<!------------------------------------------ Detalhe abaixo do Perfil ------------------------------------------->
-    <div class="detalhe-abaixo-do-perfil">
-        <img src="./imagem/dec-1.svg" alt="Detalhe pontilhado do topo-esquerda">
-        <img src="./imagem/dec-3.svg" alt="Detalhe pontilhado do topo-direita">
-    </div>
 
-
-<!----------------------------------------------- Apresentação -------------------------------------------------->
+<!----------------------------------------------- Apresentação  -------------------------------------------------->
     <main class="introdução">
-        <div class="apresentacao">
-            <h1>Olá,</h1>
-            <p>sou Davi Lopes. Desenvolvedor Front End e UX/UI Designer. Acredito que conhecimento nunca é demais, adoro cursos intensivos e atualmentente estou cursando Ensino Superior Analise e Desenvolvimento de Sistemas. Adoro desafios e acredito na evolução do mundo através do poder da informação.</p>
+        <div class="divisor">
+            <div class="foto-de-perfil">
+                <img src="./imagem/foto.jpeg" alt="">
+            </div>
+
+            <div class="apresentacao">
+                <p>Olá,</p>
+                <p class="apresentacao-nome">Meu nome é <span class="vermelho">Davi Lopes</span></p>
+                <p class="apresentacao-habilidade">Desenvolvedor <span class="vermelho">Front End</span> e <span class="vermelho">UX/UI Designer</span>.</p>
+                
+                <!-- <p>sou Davi Lopes. Desenvolvedor Front End e UX/UI Designer. Acredito que conhecimento nunca é demais, adoro cursos intensivos e atualmentente estou cursando Ensino Superior Analise e Desenvolvimento de Sistemas. Adoro desafios e acredito na evolução do mundo através do poder da informação.</p> -->
+
+            </div>
+
         </div>
 
-        <div class="apresentacao-localizacao"> 
-            <p>Localizado no Rio de Janeiro </p>
+        <div class="apresentacao-localizacao divisor"> 
+            
+        <nav>    
+            <ul class="headermenu">
+                <li><a href=""><img src="./imagem/linkedin.svg" alt=""></a></li>
+                <li><a href=""><img src="./imagem/mask-group.svg" alt=""></a></li>
+                <li><a href=""><img src="./imagem/whatsapp.svg" alt=""></a></li>
+            </ul>
+        </nav>
+
+            <p >Localizado no Rio de Janeiro </p>
+
         </div>
     </main>
 
-    <div class="separador"></div>
+    <div class="separador header"></div>
 
 
 
@@ -56,11 +68,11 @@
         <div>
         <p class="experiencia-texto">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Para aplicativos web como a rede social Dogs eu trabalhei no <strong>UX</strong> e <strong>UI Design</strong> do projeto.</p>
 
-        <div class="empresa">
-            <span class="empresa-ano">2045 <strong class="empresa-ano-data">Ano</strong></span>
+        <a href="" class="empresa">
+            <span class="empresa-ano">2022 <strong class="empresa-ano-data">Ano</strong></span>
             <h3 class="empresa-titulo">Bikcraft</h3>
-            <span class="empresa-titulo">Desenvolvedor Júnior</span>
-            <p class="empresa-texto">No projeto Bikcraft eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site. Além disso, também prestei consultoria no Design.</p>
+            <span class="empresa-titulo">Projeto Acadêmico</span>
+            <p class="empresa-texto">No projeto Bikcraft eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site.</p>
             <ul class="empresa-habilidades">
             <li>HTML</li>
             <li>CSS</li>
@@ -68,32 +80,20 @@
             <li>UX Design</li>
             <li>UI Design</li>
             </ul>
-        </div>
+        </a>
 
-        <div class="empresa">
-            <span class="empresa-ano">2044-45 <strong class="empresa-ano-data">Ano</strong></span>
-            <h3 class="empresa-titulo">Surfbot</h3>
-            <span class="empresa-titulo">Estagiário</span>
-            <p class="empresa-texto">Surfbot é uma empresa que oferece aulas de surf no Rio de Janeiro. O projeto foi feito com HTML, CSS e JavaScript. Todo o projeto foi feito do zero.</p>
+        <a href="" class="empresa">
+            <span class="empresa-ano">2022 <strong class="empresa-ano-data">Ano</strong></span>
+            <h3 class="empresa-titulo">Dogs</h3>
+            <span class="empresa-titulo">Projeto Acadêmico</span>
+            <p class="empresa-texto">Dogs é um projeto de uma Rede Social para Cachorros. O projeto foi feito com HTML, CSS, JavaScript e React.</p>
             <ul class="empresa-habilidades">
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
+            <li>React</li>
             </ul>
-        </div>
-
-        <div class="empresa">
-            <span class="empresa-ano">2044 <strong class="empresa-ano-data">Ano</strong></span>
-            <h3 class="empresa-titulo">Brafé</h3>
-            <span class="empresa-titulo">Desenvolvedor Júnior</span>
-            <p class="empresa-texto">Mais de 3 projetos foram desenvolvidos para a empresa Brafé. Eu trabalhei na criação do email marketing e também no HTML.</p>
-            <ul class="empresa-habilidades">
-            <li>Email Marketing</li>
-            <li>HTML</li>
-            <li>UX Design</li>
-            <li>UI Design</li>
-            </ul>
-        </div>
+        </a>
 
         </div>
     </section>
@@ -110,10 +110,10 @@
 <section class="formacao" id="formacao" aria-label="Formação">
     <div class="formacao-container">
       <h2 class="subtitulo-formacao">FORMAÇÃO</h2>
-
+      
       <div>
         <p class="formacao-texto">
-          Minha mais recente experiência acadêmica foi o <strong>mestrado</strong> 🎓 que fiz no exterior em <strong>UX Design</strong>. Além disso me mantenho sempre atualizado com cursos intensivos online.
+          Minha mais recente experiência acadêmica está sendo o <strong>Ensino Superior</strong> 🎓 que estou fazendo em <strong>Análise e Desenvolvimento de Sistemas</strong>. Além disso me mantenho sempre atualizado com cursos intensivos online.
         </p>
 
         <ul class="faculdade-lista">
@@ -147,14 +147,12 @@
                 <h3>IDIOMAS</h3>
                 <ul>
                 <li>Inglês <span>/ Básico</span></li>
-                <li>Espanhol <span>/ Básico</span></li>
                 </ul>
             </div>
             </div>
         </div>
     </div>
   </section>
-
   
 <!------------------------------------------ Detalhe abaixo do Formação ------------------------------------------>
         <div class="detalhe-abaixo-do-formacao">
@@ -162,10 +160,8 @@
         </div>       
     </main>
 
-
 <!------------------------------------------------------ Footer ---------------------------------------------------->
     <footer id="contato">
-        <img src="./imagem/logo-dll.svg" alt="Logo">
 
         <div class="caixa-footer">
             <div class="menu-footer">
@@ -174,15 +170,6 @@
                     <li><a href="#experiencia">Experiência</a></li>
                     <li><a href="#formacao">Formação</a></li>
                     <li><a href="#contato">Contato</a></li>
-                </ul>
-            </div>
-
-            <div class="redes-sociais-footer">
-                <h2>REDES SOCIAIS</h2>
-                <ul class="caixa-redes-sociais-footer">
-                    <li><a href=""><img src="./imagem/Brands/linkedin.svg" alt=""></a></li>
-                    <li><a href=""><img src="./imagem/Mask group.svg" alt=""></a></li>
-                    <li><a href=""><img src="./imagem/Brands/whatsapp.svg" alt=""></a></li>
                 </ul>
             </div>
 
@@ -204,7 +191,9 @@
                 </div>
             </div>
         </div>
+        
     </footer>
+
 </body>
 
 </html>
