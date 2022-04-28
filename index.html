@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsivo.css">
+
+    <script>document.documentElement.classList.add('js');</script>
+
+    <link rel="stylesheet" href="./css/simple-anime.css">
+
     <title>Davi Lopes - Desenvolvedor e Designer</title>
 </head>
 
@@ -27,11 +32,11 @@
 <!--------------------------- Apresentação  ------------------------------>
     <main class="introdução">
         <div class="divisor">
-            <div class="foto-de-perfil">
+            <div class="foto-de-perfil esquerdaParaDireita" data-anime="200">
                 <img src="./imagem/foto.jpeg" alt="">
             </div>
 
-            <div class="apresentacao">
+            <div class="apresentacao direitaParaEsquerda" data-anime="200">
                 <p>Olá,</p>
                 <p class="apresentacao-nome">Meu nome é <span class="vermelho">Davi Lopes</span></p>
                 <p class="apresentacao-habilidade">Desenvolvedor <span class="vermelho">Front End</span> e <span class="vermelho">UX/UI Designer</span>.</p>
@@ -40,13 +45,13 @@
 
         <div class="apresentacao-localizacao divisor">             
             <nav>    
-                <ul class="headermenu">
+                <ul class="headermenu esquerdaParaDireita" data-anime="500">
                     <li><a href="https://www.linkedin.com/in/davi-lopes-4a24671ab/"><img src="./imagem/linkedin.svg" alt=""></a></li>
                     <li><a href="https://github.com/DaviLopes985"><img src="./imagem/github.svg" alt=""></a></li>
                 </ul>
             </nav>
 
-            <p >Localizado no Rio de Janeiro </p>
+            <p class="direitaParaEsquerda" data-anime="500">Localizado no Rio de Janeiro </p>
         </div>
     </main>
 
@@ -185,6 +190,9 @@
         
     </footer>
 
+    <script src="./js/simple-anime.js">
+
+    </script>
 </body>
 
 </html>
